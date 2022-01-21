@@ -44,15 +44,16 @@ nav a:active {
 }
 
 main h1 {
-    color: white;
     text-align: center;
-    background-color: black;
 }
 
-h2 {
-    color: black;
+h2.about {
+    text-decoration: none;
 }
 
-p {
-
+footer {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 1em 2em;
+    font-size: 12px;
 }
