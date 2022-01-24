@@ -9,7 +9,13 @@
     <meta name="description" content="a learning website for upcoming mathemeticians" />
     <meta name=" keywords" content="learning, tutor, class, mathematics" />
     <meta name="author" content="Kayla Nguyen" />
+
+    <!-- External Style Sheet -->
     <link href="CSS/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon Links -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
 </head>
 
@@ -17,11 +23,20 @@
 
     <header>
 
-        <h1 class="header">MATHLETES</h1>
-        <p 
-           class="header" id="slogan">Got a problem? <span class="header" id="fancySlogan">We'll solve it.</span>
-        </p>
+        <div id="logo">
+            <div id="headerContent">
+                <h1>MATHLETES</h1>
+                <p id="slogan">
+                    Got a problem? <span>We'll solve it.</span>
+                </p>
+            </div>
+        </div>
+        
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official"></i>
 
+        <div class="clear"></div>
     </header>
 
     <nav>
@@ -42,24 +57,50 @@
     </nav>
 
     <main>
-        <img src="" />
-        <h2 id="about">About Us</h2>
-        <p>Mathletes is a small educational services company that provides 6 different course subjects that will help you better understand mathematics. For each course subject, we offer beginner, intermediate, and advanced courses.</p>
+        <div id="aboutUs">
+
+            <img src="images/thisisengineering-raeng-TXxiFuQLBKQ-unsplash.jpg" alt="Image of a teacher standing at a whiteboard." id="aboutUsPic" />
+
+            <h2 class="underline">About Us</h2>
+
+            <p>
+                Mathletes is a small educational services company that provides 6 different course subjects that will help you better understand mathematics. For each course subject, we offer beginner, intermediate, and advanced courses.
+            </p>
+
+        </div>
+        <div class="clear"></div>
         <br />
 
         <h1>Why Choose Us?</h1>
         <br />
 
-        <h2>Our Team</h2>
-        <p>We are a team of 12 intelligent individuals who are happy to use their expertise to assist anyone who wants to learn more about math or who are currently struggling to understand certain math cencepts.</p>
-
-        <h2>We Work</h2>
-        <p>With personalized learning, trusted content, and tools to empower both students and teachers, Mathletes will help you with your next operations.</p>
+        <div id="whyChooseUsContent">
+            <img src="images/jason-goodman-6awfTPLGaCE-unsplash.jpg" alt="A meeting of techers." class="indexLeftColumn" width="600" height="400" />
+            <div class="indexRightColumn">
+                <h2>Our Team</h2>
+                <p>We are a team of 12 intelligent individuals who are happy to use their expertise to assist anyone who wants to learn more about math or who are currently struggling to understand certain math cencepts.</p>
+            </div>
+            <div class="clear"></div>
+            <img src="images/greg-rosenke-DJWvzY4pkGU-unsplash.jpg" alt="Young student doing math homework." class="indexRightColumn" width="600" height="400"/>
+            <div class="indexLeftColumn">
+                <h2>We Work</h2>
+                <p>With personalized learning, trusted content, and tools to empower both students and teachers, Mathletes will help you with your next operations.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        
 
     </main>
+    
     <br />
     <br />
-    <footer>All Rights Reserved 2022</footer>
+
+    <footer>
+        <div>All Rights Reserved 2022</div>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official"></i>
+    </footer>
 </body>
    
 </html>

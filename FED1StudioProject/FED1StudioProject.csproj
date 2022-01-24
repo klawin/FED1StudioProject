@@ -69,6 +69,14 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="CSS\custom.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="images\crissy-jarvis-cHhbULJbPwM-unsplash.jpg" />
+    <Content Include="images\favicon-32x32.png" />
+    <Content Include="images\greg-rosenke-DJWvzY4pkGU-unsplash.jpg" />
+    <Content Include="images\jason-goodman-6awfTPLGaCE-unsplash.jpg" />
+    <Content Include="images\pexels-tim-mossholder-936801.jpg" />
+    <Content Include="images\Picture3.png" />
+    <Content Include="images\thisisengineering-raeng-TXxiFuQLBKQ-unsplash.jpg" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="index.html" />
@@ -87,7 +95,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="JS\" />
   </ItemGroup>
   <PropertyGroup>
