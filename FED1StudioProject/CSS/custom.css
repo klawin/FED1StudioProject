@@ -24,12 +24,12 @@ body {
 }
 
 header {
-    background-color: ghostwhite;
+    background-color: ivory;
 }
 
-#headerContent {
+#headerOverlay {
     margin:3px 0px 3px 150px;
-    font-family: 'Open Sans', Times, serif
+    font-family: 'Open Sans', Times, serif;
 }
 
 #slogan {
@@ -42,17 +42,22 @@ header span {
 }
 
 .fa.fa-facebook-official, .fa.fa-instagram, .fa.fa-twitter-square {
-    padding:2em;
     float: right;
+    padding: .5em;
 }
 /*Navigation Bar*/
+.active {
+    background-color:lightslategray;
+    border: 2px solid black;
+}
+
 nav ul li {
     display: inline-block;
 }
 
 nav ul li a {
     display: block;
-    padding: 1em 2em;
+    padding: 1em 1em;
     color:black;
     font-size: 18px;
     text-decoration: none;
@@ -62,6 +67,8 @@ nav {
     background-color: crimson;
     font-family: 'Open Sans', Times, serif;
     font-size:18px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 nav a:hover { 
@@ -93,6 +100,7 @@ img#aboutUsPic {
 }
 
 main h1 {
+    font-family: Courier New, Courier, monospace;
     padding: .5em;
     text-align: center;
     background-color: yellow;
@@ -101,21 +109,83 @@ main h1 {
 .indexLeftColumn {
     width: 50%;
     float: left;
-    padding: 3em;
+    padding: 2em;
+    background-color: green;
+    box-sizing:border-box;
 }
 
 .indexRightColumn {
     width: 50%;
     float: right;
+    padding: 2em;
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+img.indexRightColumn {
+    height: auto;
+}
+
+img.indexLeftColumn {
+    height: auto;
+}
+
+/*Team Page*/
+h2#leadership {
+    background-color: orange;
+}
+
+h2#sales {
+    background-color: yellow;
+}
+
+h2#administration {
+    background-color: green;
+}
+
+h2#instructors {
+    background-color: blue;
+}
+
+aside {
+    width: 25%;
+    float: right;
 }
 
 
+/*Contact Page*/
+h1#contactUs {
+    background-color: orange;
+}
+p.contactPage {
+    padding: 1em 1em;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    text-align: center;
+    font-weight: bold;
+}
 
+p#phone {
+    background-color: yellow;
+}
 
+p#email {
+    background-color: green;
+}
+
+p#address {
+    background-color: blue;
+}
+/*Footer*/
 footer {
     border-top: 5px solid black;
     border-bottom: 5px solid black;
     padding: 1em 2em;
     font-size: 12px;
+    background-color: lightslategrey;
+    font-family: 'Open Sans', Times, serif;
 }
 
+.clear {
+    clear: both;
+}

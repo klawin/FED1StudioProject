@@ -10,17 +10,30 @@
     <meta name="description" content="a learning website for upcoming mathemeticians" />
     <meta name=" keywords" content="learning, tutor, class, mathematics" />
     <meta name="author" content="Kayla Nguyen" />
+    <!-- External Style Sheet -->
     <link href="CSS/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
 
     <header>
 
-        <h1 class="header">MATHLETES</h1>
-        <p class="header" id="slogan">
-            Got a problem? <span class="header" id="fancySlogan">We'll solve it.</span>
-        </p>
+        <div>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official"></i>
+            <div class="clear"></div>
+        </div>
+        
+        <div id="logo">
+            <div id="headerOverlay">
+                <h1>MATHLETES</h1>
+                <p id="slogan">
+                    Got a problem? <span>We'll solve it.</span>
+                </p>
+            </div>
+        </div>
 
     </header>
 
@@ -35,25 +48,35 @@
             <li>
                 <a href="Team.html">Team</a>
             </li>
-            <li>
+            <li class="active">
                 <a href="Contact.html">Contact</a>
             </li>
         </ul>
     </nav>
 
     <main>
-        <p>
-            <a href="tel:+018168575309">Phone: (816) 857 - 5309</a>
+
+        <h1 id="contactUs">Contact Us</h1>
+
+        <p class="contactPage" id="phone">
+            Phone: <a href="tel:+018168575309">(816) 857 - 5309</a>
         </p>
-        <p>
-            <a href="emailto: learning@smallbiz.com">Email: learning@smallbiz.com</a>
+        <p class="contactPage" id="email">
+            Email: <a href="emailto: learning@smallbiz.com">learning@smallbiz.com</a>
         </p>
-        <p>
+        <p class="contactPage" id="address">
             Address: 1740 W 92nd Street, Kansas City, MO 64114
         </p>
     </main>
 
-    <footer>All Rights Reserved 2022</footer>
+    <footer> 
+    © Copyright 2022 Kayla Nguyen All Rights Reserved
+        <div>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official"></i>
+        </div>
+    </footer>
 
 </body>
 </html>
