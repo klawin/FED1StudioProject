@@ -2,9 +2,6 @@
 /*Imported Fonts from Google Fonts (Open Sans)*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
 
-body {
-}
-
 /*Background Image*/
 
 body {
@@ -45,9 +42,11 @@ header span {
     float: right;
     padding: .5em;
 }
+
 /*Navigation Bar*/
+
 .active {
-    background-color:lightslategray;
+    background-color:lightgray;
     border: 2px solid black;
 }
 
@@ -64,7 +63,7 @@ nav ul li a {
 }
 
 nav {
-    background-color: crimson;
+    background-color: red;
     font-family: 'Open Sans', Times, serif;
     font-size:18px;
     border-top: 5px solid black;
@@ -131,32 +130,144 @@ img.indexLeftColumn {
 }
 
 /*Team Page*/
+
 h2#leadership {
     background-color: orange;
+    width: 100%;
+    float: left;
+    text-align:center;
+    display: inline-block;
 }
 
 h2#sales {
     background-color: yellow;
+    width: 100%;
+    float: left;
+    text-align: center;
+    display: inline-block;
 }
 
 h2#administration {
     background-color: green;
+    width: 100%;
+    float: left;
+    text-align: center;
+    display: inline-block;
 }
 
 h2#instructors {
     background-color: blue;
+    width: 100%;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+
+main div img.teamLeftColumn {
+    float: left;
+    width: 20%;
+    padding: 1em;
+}
+
+.teamContent {
+    background-color: ivory;
+    width: 80%;
+    display: inline-block;
+}
+
+.teamRightColumn{
+    padding:1em;
 }
 
 aside {
-    width: 25%;
-    float: right;
+    float:right;
+    width: 19%;
+    border-left: 3px solid black;
+    background-color: ivory;
 }
 
+aside h2 {
+    background-color: red;
+    font-weight: normal;
+}
+
+aside ul li a {
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+/*Classes Page*/
+
+#classesHeader {
+    background-color: orange;
+    text-align: center;
+}
+
+div#classCards {
+    margin:0 25%;
+}
+
+div.cardContent  {
+    float: left;
+    background-color: ivory;
+    margin: .5em;
+    width:235px;
+    height: 475px;
+    display:inline-block;
+}
+
+.cardContent:hover{
+    border: 2px solid black;
+}
+
+div#cardContent p, div#cardContent h3 {
+    margin:1em;
+    text-align:left;
+}
+
+h2#classTableHeader{
+    text-align: center;
+    background-color: yellow;
+}
+
+table{
+    margin:auto;
+    margin-bottom: 2em;
+    text-align:center;
+}
+
+thead{
+    background-color: gray;
+}
+
+tr:nth-child(odd) td {
+    background-color: ivory;
+    width: 100px;
+}
+
+tr:nth-child(even) td {
+    background-color: lightgray;
+    width: 100px;
+}
+
+div#classCards a p, h3{
+    padding:0 1em;
+    color:black;
+}
+
+tfoot {
+    font-weight: bold;
+}
 
 /*Contact Page*/
+
 h1#contactUs {
     background-color: orange;
 }
+
 p.contactPage {
     padding: 1em 1em;
     border-top: 5px solid black;
@@ -176,7 +287,9 @@ p#email {
 p#address {
     background-color: blue;
 }
+
 /*Footer*/
+
 footer {
     border-top: 5px solid black;
     border-bottom: 5px solid black;
