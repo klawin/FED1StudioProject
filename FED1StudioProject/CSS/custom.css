@@ -5,9 +5,10 @@
 /*Background Image*/
 
 body {
-    background: url(../images/pexels-tim-mossholder-936801.jpg) no-repeat center center fixed;
+    /*background: url(../images/pexels-tim-mossholder-936801.jpg) no-repeat center center fixed;
     background-size: cover;
-    margin:0;
+    margin:0;*/
+    color: #333333;
 }
 
 /*Header*/
@@ -21,11 +22,11 @@ body {
 }
 
 header {
-    background-color: ivory;
+    background-color: white;
 }
 
 #headerOverlay {
-    margin:3px 0px 3px 150px;
+    margin: 3px 0px 3px 150px;
     font-family: 'Open Sans', Times, serif;
 }
 
@@ -46,34 +47,34 @@ header span {
 /*Navigation Bar*/
 
 .active {
-    background-color:lightgray;
-    border: 2px solid black;
+    background-color: #AED581;
+    border: 1px solid black;
 }
 
 nav ul li {
     display: inline-block;
 }
 
-nav ul li a {
-    display: block;
-    padding: 1em 1em;
-    color:black;
-    font-size: 18px;
-    text-decoration: none;
-}
+    nav ul li a {
+        display: block;
+        padding: 1em 1em;
+        color: black;
+        font-size: 18px;
+        text-decoration: none;
+    }
 
 nav {
-    background-color: red;
+    background-color: #6AB04A;
     font-family: 'Open Sans', Times, serif;
-    font-size:18px;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    font-size: 18px;
+    /*border-top: 5px solid black;
+    border-bottom: 5px solid black;*/
 }
 
-nav a:hover { 
-    background-color: gray;
-    text-decoration: underline;
-}
+    nav a:hover {
+        background-color: #AED581;
+        text-decoration: underline;
+    }
 
 /*Main Content*/
 
@@ -83,15 +84,15 @@ main {
 
 img#aboutUsPic {
     width: 250px;
-    float:left;
+    float: left;
     padding-right: 4em;
 }
 
 #aboutUs {
-    margin: 25px;
-    background-color: orange;
-    background-size: cover;
-    padding:5em;
+    /*margin: 25px;*/
+    background-color: #6AB04A;
+    /*background-size: cover;*/
+    padding: 5em;
 }
 
 .underline {
@@ -99,25 +100,25 @@ img#aboutUsPic {
 }
 
 main h1 {
-    font-family: Courier New, Courier, monospace;
+   /* font-family: Courier New, Courier, monospace;*/
     padding: .5em;
     text-align: center;
-    background-color: yellow;
+    background-color: #6AB04A;
 }
 
 .indexLeftColumn {
     width: 50%;
     float: left;
     padding: 2em;
-    background-color: green;
-    box-sizing:border-box;
+    background-color: #6AB04A;
+    box-sizing: border-box;
 }
 
 .indexRightColumn {
     width: 50%;
     float: right;
     padding: 2em;
-    background-color: blue;
+    background-color: #6AB04A;
     box-sizing: border-box;
 }
 
@@ -132,15 +133,15 @@ img.indexLeftColumn {
 /*Team Page*/
 
 h2#leadership {
-    background-color: orange;
+    background-color: #6AB04A;
     width: 100%;
     float: left;
-    text-align:center;
+    text-align: center;
     display: inline-block;
 }
 
 h2#sales {
-    background-color: yellow;
+    background-color: #6AB04A;
     width: 100%;
     float: left;
     text-align: center;
@@ -148,7 +149,7 @@ h2#sales {
 }
 
 h2#administration {
-    background-color: green;
+    background-color: #6AB04A;
     width: 100%;
     float: left;
     text-align: center;
@@ -156,7 +157,7 @@ h2#administration {
 }
 
 h2#instructors {
-    background-color: blue;
+    background-color: #6AB04A;
     width: 100%;
     float: left;
     text-align: center;
@@ -170,81 +171,81 @@ main div img.teamLeftColumn {
 }
 
 .teamContent {
-    background-color: ivory;
+    background-color: white;
     width: 80%;
     display: inline-block;
 }
 
-.teamRightColumn{
-    padding:1em;
+.teamRightColumn {
+    padding: 1em;
 }
 
 aside {
-    float:right;
+    float: right;
     width: 19%;
     border-left: 3px solid black;
-    background-color: ivory;
+    background-color: white;
 }
 
-aside h2 {
-    background-color: red;
-    font-weight: normal;
-}
+    aside h2 {
+        background-color: #6AB04A;
+        font-weight: normal;
+    }
 
-aside ul li a {
-    text-decoration: none;
-}
+    aside ul li a {
+        text-decoration: none;
+    }
 
-aside ul li a:hover {
-    text-decoration: underline;
-}
+        aside ul li a:hover {
+            text-decoration: underline;
+        }
 
 /*Classes Page*/
 
 #classesHeader {
-    background-color: orange;
+    background-color: #6AB04A;
     text-align: center;
 }
 
 div#classCards {
-    margin:0 25%;
+    margin: 0 25%;
 }
 
-div.cardContent  {
+div.cardContent {
     float: left;
-    background-color: ivory;
+    background-color: white;
     margin: .5em;
-    width:235px;
+    width: 235px;
     height: 475px;
-    display:inline-block;
+    display: inline-block;
 }
 
-.cardContent:hover{
-    border: 2px solid black;
+.cardContent:hover {
+    border: 1px solid #AED581;
 }
 
 div#cardContent p, div#cardContent h3 {
-    margin:1em;
-    text-align:left;
+    margin: 1em;
+    text-align: left;
 }
 
-h2#classTableHeader{
+h2#classTableHeader {
     text-align: center;
-    background-color: yellow;
+    background-color: #6AB04A;
 }
 
-table{
-    margin:auto;
+table {
+    margin: auto;
     margin-bottom: 2em;
-    text-align:center;
+    text-align: center;
 }
 
-thead{
-    background-color: gray;
+thead {
+    background-color: #6AB04A;
 }
 
 tr:nth-child(odd) td {
-    background-color: ivory;
+    background-color: #6AB04A;
     width: 100px;
 }
 
@@ -253,9 +254,9 @@ tr:nth-child(even) td {
     width: 100px;
 }
 
-div#classCards a p, h3{
-    padding:0 1em;
-    color:black;
+div#classCards a p, h3 {
+    padding: 0 1em;
+    color: black;
 }
 
 tfoot {
@@ -265,38 +266,42 @@ tfoot {
 /*Contact Page*/
 
 h1#contactUs {
-    background-color: orange;
+    background-color: #6AB04A;
 }
 
 p.contactPage {
     padding: 1em 1em;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+   /* border-top: 5px solid black;
+    border-bottom: 5px solid black;*/
     text-align: center;
     font-weight: bold;
 }
 
 p#phone {
-    background-color: yellow;
+    background-color: #6AB04A;
 }
 
 p#email {
-    background-color: green;
+    background-color: #6AB04A;
 }
 
 p#address {
-    background-color: blue;
+    background-color: #6AB04A;
 }
 
 /*Footer*/
 
 footer {
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+   /* border-top: 5px solid black;
+    border-bottom: 5px solid black;*/
     padding: 1em 2em;
     font-size: 12px;
-    background-color: lightslategrey;
+    background-color: #6AB04A;
     font-family: 'Open Sans', Times, serif;
+}
+
+i {
+    margin: .5em;
 }
 
 .clear {
